@@ -15,12 +15,7 @@ console.log(listaDeDestinos);
 
 const podeComprar = idadeComprador >= 18 || estaAcompanhada == true; 
 
-
-console.log("Embarque: \n\n")
-if(idadeComprador >= 18 && temPassagemComprada){
-    console.log("Boa viagem");
-}else{
-    console.log("Você não pode embarcar");
-}
-
-console.log(listaDeDestinos);
+let contador = 0;
+while(contador<3){
+    console.log(listaDeDestinos[contador]);
+} 
